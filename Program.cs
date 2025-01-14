@@ -27,7 +27,7 @@ namespace EmployeeNotificationSystem
 
             Console.WriteLine("for Chandragupt");
             NotificationthroughClass Chandragupt = getNotification("Push");
-            Parth.Notificationtype("parth");
+            Chandragupt.Notificationtype("parth");
             Chandragupt.EventReminder();
             Chandragupt.SystemAlert();
             Chandragupt.NewPolicyAnnouncement();
